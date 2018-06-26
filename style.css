@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+.content {
+  min-height: calc(100vh - 60px);
+  padding: 10px;
+  margin: auto;
+  width: 98%;
+  text-align: center;
+  color:rgba(42, 137, 215, 1);
+}
+.footer {
+  height: 20px;
+  background: rgba(189, 222, 255, 1);
+}
+body{
+  background-color:#2989D8;
+  filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#2989D8, endColorstr=#FFFFFF);
+  background-image:-moz-linear-gradient(left, #2989D8 0%, #FFFFFF 10%,#FFFFFF 90%,#2989D8 100%);
+  background-image:linear-gradient(left, #2989D8 0%, #FFFFFF 10%,#FFFFFF 90%,#2989D8 100%);
+  background-image:-webkit-linear-gradient(left, #2989D8 0%, #FFFFFF 10%,#FFFFFF 90%,#2989D8 100%);
+  background-image:-o-linear-gradient(left, #2989D8 0%, #FFFFFF 10%,#FFFFFF 90%,#2989D8 100%);
+  background-image:-ms-linear-gradient(left, #
+}2989D8 0%, #FFFFFF 10%,#FFFFFF 90%,#2989D8 100%);
+  background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,#2989D8), color-stop(10%,#FFFFFF),color-stop(90%,#FFFFFF),color-stop(100%,#2989D8));
+  display: block;
+  height:100%;
+  width:100%;
+}
+textarea {
+  width:99.6%;
+  height:50px;
+  overflow: auto;
+}
+#text1 textarea {
+  background-color: rgba(112, 167, 240, 1);
+  overflow: hidden;
+}
+#copy {
+  padding-top: 20px;
+  text-align: center;
+  color: cadetblue;  
+  background: rgba(189, 222, 255, 1);        
+}
+.wrap {
+  background: rgba(189, 222, 255, 1);
+  width: 80%;
+  margin: auto;
+}
+form{
+  color: rgba(42, 137, 215, 1);
+}
+input, textarea {
+  border-color: rgba(42, 137, 215, 1);
+}
